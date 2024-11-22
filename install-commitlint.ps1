@@ -1,6 +1,6 @@
 pnpm add -D commitlint-config-gitmoji commitlint
 Write-Output "const Configuration = {
-  extends: ['gitmoji'],
+  extends: [`"gitmoji`"],
   rules: {
     `"type-enum`": [
       2,
